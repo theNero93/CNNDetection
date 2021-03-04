@@ -7,7 +7,7 @@ from tqdm import tqdm
 
 from networks.resnet import resnet50
 from src.data.basic_dataset import BasicDataset
-from src.data.transforms import create_basic_transforms
+from src.model.transforms.transforms import create_basic_transforms
 from src.util.validate import calc_scores
 
 
